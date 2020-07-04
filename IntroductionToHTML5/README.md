@@ -7,6 +7,8 @@ HTML Time's:
 
     Today we can open a browser &  search engine of our choice, search with relevant keywords and the information is in our fingertips. Most probable chances are some one has designed a website with your exact search keywords in mind.
 
+I am excited to begin my journey of learning to build websites using HTML.
+
 HTML Abbreviation:
 
     Hyper Text Markup Language
