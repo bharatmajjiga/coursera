@@ -1,0 +1,21 @@
+span {
+    background-color: aqua;
+    display: inline-block;
+    height: 50px;
+    width: 75px;
+}
+
+div {
+    background-color: darkgoldenrod;
+    height: 120px;
+    width: 310px;
+    display: block;
+    float: left;
+}
+
+p {
+    clear: both;
+    background-color: darkred;
+    height: 120px;
+    width: 380px;
+}
