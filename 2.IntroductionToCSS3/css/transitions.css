@@ -1,0 +1,43 @@
+div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+    padding: 2%;
+    margin: 4%;
+    box-sizing: border-box;
+    transition-property: background-color, width;
+    transition: 1s;
+}
+
+div:focus {
+    background-color: #08dd08;
+}
+
+div:hover {
+    background-color: #ed12ed;
+    width: 150px;
+}
+
+.animate {
+    background-color: #aaaaaa;
+    opacity: 0.4;
+    transition-property: width, height, transform, opacity;
+    -o-transition-property: width, height, -o-transform, opacity;
+    -moz-transition-property: width, height, -moz-transform, opacity;
+    -webkit-transition-property: width, height, -webkit-transform, opacity;
+    transition: 2s ease;
+    -o-transition: 2s ease;
+    -webkit-transition: 2s ease;
+    -moz-transition: 2s ease;
+}
+
+.animate:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    width: 50px;    
+    height: 50px;
+    opacity: 1;
+}
