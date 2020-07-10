@@ -1,0 +1,31 @@
+body {
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul, nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav {
+    height: 10vh;
+    border: 1px solid #000000;
+    background-color: rgb(77, 71, 71);
+}
+
+nav ul>li {
+    border-right: 1px solid #000000;
+}
+
+nav li>ul {
+    display: none;
+    position: absolute;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 125%;
+}

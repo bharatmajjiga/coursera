@@ -1,0 +1,31 @@
+body {
+    background-color: #f2f2f2;
+    margin: 1%;
+    padding: 1%;
+}
+
+nav {
+    border: 1px solid #000000;
+    height: 10vh;
+    background-attachment: #ffffff;
+}
+
+nav a {
+    display: inline-block;
+    background-color: green;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 40px;
+    margin: 10px;
+    line-height: 25px;
+    border-radius: 20px;
+}
+
+.current {
+    background-color: red;
+}
+
+a:hover {
+    color: #000000;
+    border-radius: 0px;
+}
