@@ -1,0 +1,122 @@
+body {
+    margin: 2%;
+    padding: 1%;
+}
+
+header {
+    background-color: #b2b2b2;
+    background-image: url("../images/flywheel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    height: 150px;
+    padding: 1px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+nav a {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 5px;
+    border-radius: 5px;
+    opacity: 0.6;
+    background-color: #eeeeee;
+    margin: 0px 10px;
+    width: 22%;
+    box-sizing: border-box;
+    color: #000000;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #ffffff;
+    opacity: 1;
+}
+h2 {
+    color: #000000;
+}
+
+main {
+    display: inline-block;
+}
+
+main aside, main section {
+    display: inline;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    background-color: #777613;
+}
+
+.right {
+    float: left;
+    margin-left: 5px;
+    width: 70%;
+}
+
+aside img {
+    margin: 20% auto;
+    display: block;
+    height: 80px;
+    width: 130px;
+    border: 1px solid #000000;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table th {
+    background-color: #777613;
+    background: linear-gradient(#d6d31a 0%, #706f0b 100%);
+    background: -webkit-linear-gradient(#d6d31a 0%, #706f0b 100%);
+    background: -o-linear-gradient(#d6d31a 0%, #706f0b 100%);
+    background: -moz-linear-gradient(#d6d31a 0%, #706f0b 100%);
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    padding: 15px 15px;
+    border: 1px solid green;
+    border-radius: 5px 5px 0px 0px;
+}
+
+table th:first-child {
+    text-align: left;
+}
+
+table tr {
+    opacity: 0.8;
+}
+
+table td {
+    background-color: #e4f5d4;
+    padding: 10px 10px;
+    text-align: center;
+    color: #000000;
+    line-height: 25px;
+    border-radius: 2px;
+    transition: 0.2s opacity;
+    -moz-transition: 0.2s opacity;
+    -o-transition: 0.2s opacity;
+    -webkit-transition: 0.2s opacity;
+}
+
+table tr td:first-child {
+    text-align: left;
+}
+
+table tr:hover {
+    opacity: 1;
+}

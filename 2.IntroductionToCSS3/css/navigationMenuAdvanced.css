@@ -4,28 +4,69 @@ body {
     padding: 0;
 }
 
-nav ul, nav li {
+nav ul {
+    list-style: none;
+    background-color: #444444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
     display: inline-block;
-    position: relative;
-}
-
-nav {
-    height: 10vh;
-    border: 1px solid #000000;
-    background-color: rgb(77, 71, 71);
-}
-
-nav ul>li {
+    height: 50px;
+    width: 20%;
+    font-size: 140%;
+    line-height: 50px;
     border-right: 1px solid #000000;
+    margin-right: -4px;
 }
 
-nav li>ul {
-    display: none;
-    position: absolute;
+nav li:last-child {
+    border-right: none;
 }
 
+nav li li {
+    border-right: none;
+}
 nav a {
-    color: #ffffff;
     text-decoration: none;
-    font-size: 125%;
+    color: #ffffff;
+    transition: 0.2s background-color;
+    display: block;
+    padding-left: 15px;
+}
+
+nav li:hover, nav a:hover {
+    background-color: #005f5f;
+}
+
+nav li:active {
+    color: #444;
+    background-color: #aaa;
+    cursor: default;
+}
+
+nav li li {
+    font-size: .8em;
+}
+
+nav ul li {
+    text-align: center;
+}
+nav>ul>li>a {
+    padding-left: 0;
+}
+nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li ul li {
+    display: block;
 }
